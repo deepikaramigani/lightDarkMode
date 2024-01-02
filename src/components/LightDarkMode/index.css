@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.change-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.light-mode {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-radius: 8px;
+  color: black;
+  padding: 20px;
+}
+.dark-mode {
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-radius: 8px;
+  color: white;
+  padding: 20px;
+}
+.button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  text-align: center;
+  align-self: center;
+}
